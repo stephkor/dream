@@ -16,7 +16,7 @@ function App() {
       
       if (value.current !== "")
       
-        await axios.get(`http://20.194.41.93:8080/${value.current}/${country.current}`, {
+        await axios.get(`http://20.194.41.93:7000/${value.current}/${country.current}`, {
           withCredentials: false,
         })
         .then((res) => {
